@@ -8,6 +8,7 @@ class HelloWorldController extends Controller
 {
     public function hello()
     {
+        echo "AAAAAA";
         return view('helloworld');
     }
 }
